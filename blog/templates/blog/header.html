@@ -1,0 +1,9 @@
+{% load static %}
+<div class="page-header">
+    <h1><a href="/">Django Men's Blog</a></h1>
+    <ul id="header-links">
+        <li><a href="{% url 'blog:post_list' %}">Home</a></li>
+        <li><a href="/authors">Authors</a></li>
+        <li><a href="{% url 'blog:books_list' %}">Books</li>
+    </ul>
+</div>

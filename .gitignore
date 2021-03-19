@@ -1,0 +1,7 @@
+db.sqlite3
+blog/migrations
+blog/__pycache__
+mysite/__pycache__
+venv
+js
+
