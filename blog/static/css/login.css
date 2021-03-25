@@ -13,6 +13,9 @@ h2,p {
     width: 100%;
 }
 
+.login-form form {
+    text-align: center;
+}
 .login-form input[type="text"], input[type="password"], input[type="email"], .register-form input[type="text"]{
     border: 1px solid #ccc;
     width:40%;
@@ -25,7 +28,7 @@ h2,p {
     outline:none;
     border-radius: 5px;
     cursor: pointer;
-    display: block;
+    
 }
 
 .register-form p[class="error"], .login-form p[class="error"]  {
